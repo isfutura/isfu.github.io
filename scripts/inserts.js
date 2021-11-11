@@ -11,5 +11,6 @@ const footer = `
 `;
 
 document.head.innerHTML = `
+<link rel="icon" href="/favicon.ico">
 <link rel="stylesheet" href="/styles/main.css">${document.head.innerHTML}`;
 document.body.innerHTML = `${header}${document.body.innerHTML}${footer}`;
