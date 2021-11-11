@@ -1,12 +1,12 @@
 const header = `
-<a href="/"><img src="/media/bobm.png" style="width: 50px" /></a>
+<a href="/"><img src="/media/boom.gif" style="width: 50px" /></a>
 <h1>${document.title}</h1>
 `;
 
 const footer = `
 <footer>
 <hr>
-<p>thanks for visiting - <a href="https://github.com/twitter/twemoji">twemoji</a></p>
+<p>you've reached the bottom - <a href="https://github.com/twitter/twemoji">twemoji</a></p>
 </footer>
 `;
 
