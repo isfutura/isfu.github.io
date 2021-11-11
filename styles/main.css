@@ -20,6 +20,14 @@ img.emoji {
   vertical-align: -0.1em;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 a,
 a:visited {
   color: blue;
@@ -27,4 +35,8 @@ a:visited {
 
 .album {
   width: 300px;
+}
+
+#titleHeader {
+  margin-top: 5px;
 }
