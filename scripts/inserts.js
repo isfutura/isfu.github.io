@@ -11,7 +11,7 @@ const footer = `
 `;
 
 document.head.innerHTML = `
-<link rel="stylesheet" href="/styles/main.css?v=2">${document.head.innerHTML}`;
+<link rel="stylesheet" href="/styles/main.css">${document.head.innerHTML}`;
 document.body.innerHTML = `${header}${document.body.innerHTML}${footer}`;
 
 twemoji.parse(document.body);
