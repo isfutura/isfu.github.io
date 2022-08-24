@@ -1,0 +1,17 @@
+/* markdown */
+
+h1::before {
+  content: '# ';
+}
+
+h2::before {
+  content: '## ';
+}
+
+h3::before {
+  content: '### ';
+}
+
+li::before {
+  content: '- ';
+}

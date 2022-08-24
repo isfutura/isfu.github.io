@@ -1,0 +1,27 @@
+body {
+  background-color: #1e2021;
+}
+
+h1 {
+  color: #8ec07c;
+}
+
+h3 {
+  color: #d38693;
+}
+
+p {
+  color: #fe8019;
+}
+
+li {
+  color: #b8bb26;
+}
+
+a {
+  color: #83a593;
+}
+
+a:visited {
+  color: #458588;
+}
