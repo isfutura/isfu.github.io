@@ -1,6 +1,6 @@
 /* markdown */
 
-h1::before {
+/* h1::before {
   content: '# ';
 }
 
@@ -10,7 +10,7 @@ h2::before {
 
 h3::before {
   content: '### ';
-}
+} */
 
 li::before {
   content: '- ';

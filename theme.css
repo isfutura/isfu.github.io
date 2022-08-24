@@ -6,12 +6,16 @@ h1 {
   color: #8ec07c;
 }
 
+h2 {
+  color: #fe8019;
+}
+
 h3 {
   color: #d38693;
 }
 
 p {
-  color: #fe8019;
+  color: #ebdbb2;
 }
 
 li {
@@ -24,4 +28,12 @@ a {
 
 a:visited {
   color: #458588;
+}
+
+.preferred {
+  color: #cc241d;
+}
+
+hr {
+  border: 2px solid #d5c4a1;
 }
