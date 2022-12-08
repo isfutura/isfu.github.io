@@ -1,7 +1,7 @@
 const key = 'c5b5ef2c40b5cc0e19973cf96d38db55';
 const user = 'isfutura';
 
-const endpoint = `http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${user}&api_key=${key}&format=json`;
+const endpoint = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${user}&api_key=${key}&format=json`;
 
 (async () => {
   const res = await fetch(endpoint);
