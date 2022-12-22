@@ -17,15 +17,15 @@ const endpoint =
     return t;
   })(data);
 
-  const el = document.querySelector("#qotd");
+  const qotdEl = document.querySelector("#qotd");
 
   let i = 0;
 
-  el.textContent = quotes[i];
+  qotdEl.textContent = quotes[i];
   i++;
 
   setInterval(() => {
-    el.textContent = quotes[i];
+    qotdEl.textContent = quotes[i];
     i++;
   }, 6000);
 })();
